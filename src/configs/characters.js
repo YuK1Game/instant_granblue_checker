@@ -1,8 +1,10 @@
 export default [
     {
         'id' : 1,
-        'type' : 'fire',
+        'rarity' : 1,
         'name' : '',
+        'types' : ['fire'],
         'weapons' : ['axe', 'sword'],
+        'race' : ['human'],
     }
 ];
