@@ -1,1 +1,2 @@
-"# instant_granblue_checker" 
+# instant_granblue_checker
+

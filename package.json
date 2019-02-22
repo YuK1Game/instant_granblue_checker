@@ -35,12 +35,6 @@
     "build": "webpack",
     "watch": "webpack-dev-server --progress --colors --watch",
     "server": "webpack-dev-server",
-    "push": [
-      "yarn install",
-      "yarn build",
-      "git add .",
-      "git commit -m 'wip'",
-      "git push origin master"
-    ]
+    "push" : "yarn install && yarn build && git add . && git commit -m 'wip' && git push origin master"
   }
 }
